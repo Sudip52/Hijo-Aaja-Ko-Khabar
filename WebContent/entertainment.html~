@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hijo-Aaja ko Khabar: 24 hours of News</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="nav.css" type="text/css" />
+<script type="text/javascript" src="slider.js"></script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+</head>
+
+<body>
+
+	<div class="wrapper col1">
+		<div id="header">
+			<div id="logo">
+				<h1>
+					<a href="#">Hijo-Aaja Ko Khabar</a>
+				</h1>
+				<p>24 Hours of News</p>
+
+			</div>
+			<div id="topnav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href= "">News</a>
+						<ul>
+							<li><a href = "national.html">National News</a></li>
+							<li><a href = "international.html">International News</a></li>
+							<li><a href = "sports.html">Sports News</a></li>
+							<li><a href = "entertainment.html">Entertainment</a></li>
+						</ul>
+					
+						
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+	<div id="subheader">
+		<div id="imageslider">
+			<div id="imageContainer">
+				<img id="img" src="Images/image1.png" alt="image" title="image"
+					width="650" height="250" />
+			</div>
+
+			<div id="description">Flood depict, the measurable condition of Nepalese people</div>
+			<div id="fillContainer">
+				<a href="JavaScript:one()"><img id="img1" src="Images/fill.png"
+					alt="image1" title="image1" /></a> <a href="JavaScript:two()"><img
+					id="img2" src="Images/unfill.png" alt="image2" title="image2" /></a> <a
+					href="JavaScript:three()"><img id="img3"
+					src="Images/unfill.png" alt="image3" title="image3" /></a> <a
+					href="JavaScript:four()"><img id="img4" src="Images/unfill.png"
+					alt="image4" title="image4" /></a> <a href="JavaScript:five()"><img
+					id="img5" src="Images/unfill.png" alt="image5" title="image5" /></a>
+			</div>
+		</div>
+		<div id="date_time">Date and Time</div>
+		<div id="horoscope">
+			<h3 class="three_col">Horoscope</h3>
+			<h3 id="hname">
+				<marquee onmouseover="this.stop();" onmouseout="this.start();"
+					scrollamount="2" scrolldelay="1">
+					<a href="JavaScript:Aries()">Aries</a>| <a
+						href="JavaScript:Taurus()">Taurus</a>| <a
+						href="JavaScript:Gemini()">Gemini</a>| <a
+						href="JavaScript:Cancer()">Cancer</a>| <a href="JavaScript:Leo()">Leo</a>|
+					<a href="JavaScript:Virgo()">Virgo</a>| <a
+						href="JavaScript:Libra()">Libra</a>| <a
+						href="JavaScript:Scorpio()">Scorpio</a>| <a
+						href="JavaScript:Sagittarius()">Sagittarius</a>| <a
+						href="JavaScript:Capricorn()">Capricorn</a>| <a
+						href="JavaScript:Aquarius()">Aquarius</a>| <a
+						href="JavaScript:Pisces()">Pisces</a>
+				</marquee>
+			</h3>
+			<div id="hdescription">
+				<div id="shname"></div>
+				<div id="shdescription">
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+		
+
+	<div id = "forIndex">
+		<h2>Top News</h2>
+		<div class="three_col">
+		<div class = "section_three_col">
+			<h3 class="three_col">Recent News</h3>
+			<img class="imgcenter" src="Images/Sanjaydutt.jpeg">
+			<p class = "milauna"><b>Sanjay Dutt says won't seek pardon‚ will return to prison </b>
+			 <br>
+			 REUTERS
+			 <br>
+			 <br>
+			Bollywood actor Sanjay Dutt said on Thursday he won't seek pardon after being sentenced to five years in jail by the Supreme Court last week for possession of illegal weapons in a case linked to the 1993 Mumbai bombings.
+				</p>
+				<div><a href="ReadMore1.html">Read More</a></div></p>
+			
+			</div>
+		<hr>
+			<div class = "section_three">
+			<img class="imgcenter" src="Images/entertainment2">
+			<p><b>Actress Ashley Judd opts not to enter Kentucky Senate race </b>
+			<br>
+			REUTERS:
+			<br>
+			<br>
+				
+Judd said on Wednesday she has decided not to run in 2014 to try to unseat Republican Mitch McConnell, the Senate minority leader, after considering such a candidacy for months.
+				
+			</p>
+
+</div>
+<hr>
+		<div class = "section_three">
+			<img src="Images/entertainment3" class="imgcenter">
+			<p><b>Indian stars call for dry Holi festival amid drought </b></p><p> 
+				Bollywood stars have joined calls for Mumbai to temper celebrations and reduce water wastage during a riotous Hindu festival this week, as millions face their worst drought in decades. India's Holi festival takes place on Wednesday at a time when central parts of</p>
+</div>
+<hr>
+		</div>
+
+		<div class="three_col">
+			<h3 class="three_col">Top News</h3>
+		<div class = "section">
+			<img src="Images/entertainment4.jpeg" class="imgcenter">
+			<p><b>Dress in white for Psy‚ rapper tells fans </b>
+			<br>
+			
+		SEOUL: South Korean rapper Psy wants his fans to turn up in white at his April concert where he will launch a new song that he hopes will cement the success of his "Gangnam Style" Youtube hit.
+			</p>
+			</div>
+<hr>
+		<div class = "section">
+			<img src="Images/entertainment6.jpeg" class="imgcenter">
+                           <p><b>Oprah Winfrey has been nominated</b></p>
+			<p>NEW YORK: Oprah Winfrey was crowned America's most influential celebrity for a second straight year on Friday, despite having dropped off daily television in 2011.</p>
+		</div>		
+<hr>	
+		<div class = "section">			
+			<img src="Images/entertainment7.jpeg" class="imgcenter">
+			<p><b>Singer Morrissey cancels rest of U.S. tour due to health problems </b>
+			<br>
+			Los Angeles
+			
+			  British singer Morrissey has canceled the remainder of his U.S. tour for medical reasons, after suffering a number of ailments in recent months including a bleeding ulcer and double pneumonia, his spokeswoman said.
+	
+			</p>
+			</div>
+<hr>
+		</div>
+
+
+		<div class="three_col">
+			<h3 class="three_col">Weather Information</h3>
+			<table id="weather">
+				<tr>
+					<td>Places</td>
+					<td>Maximum/°C</td>
+					<td>Minimum/°C</td>
+					<td>Humidity/%</td>
+					<td>RainFall/mm</td>
+				</tr>
+				<tr>
+					<td>Dhankuta</td>
+					<td>27</td>
+					<td>15</td>
+					<td>20</td>
+					<td>0.00</td>
+				</tr>
+				<tr>
+					<td>Kathmandu</td>
+					<td>35</td>
+					<td>20</td>
+					<td>15</td>
+					<td>0.00</td>
+				</tr>
+				<tr>
+					<td>Pokhara</td>
+					<td>32</td>
+					<td>10</td>
+					<td>17</td>
+					<td>0.00</td>
+				</tr>
+				<tr>
+					<td>Birendranagar</td>
+					<td>35</td>
+					<td>25</td>
+					<td>10</td>
+					<td>0.00</td>
+				</tr>
+				<tr>
+					<td>Dipayal</td>
+					<td>37</td>
+					<td>28</td>
+					<td>12</td>
+					<td>0.00</td>
+				</tr>
+			</table>
+
+
+			<h3 class="three_col">Currency Details</h3>
+			<table id="currency">
+				<tr>
+					<td>Currency</td>
+					<td>Unit/Rs.</td>
+					<td>Buying/Rs.</td>
+					<td>Selling/Rs.</td>
+				</tr>
+				<tr>
+					<td>US Dollar</td>
+					<td>1</td>
+					<td>86.68</td>
+					<td>87.28</td>
+				</tr>
+				<tr>
+					<td>European euro</td>
+					<td>1</td>
+					<td>112.70</td>
+					<td>113.48</td>
+				</tr>
+				<tr>
+					<td>UK pound sterling</td>
+					<td>1</td>
+					<td>132.01</td>
+					<td>132.92</td>
+				</tr>
+
+				<tr>
+					<td>Australian dollar</td>
+					<td>1</td>
+					<td>90.77</td>
+					<td>91.40</td>
+				</tr>
+				<tr>
+					<td>Japanese yen</td>
+					<td>10</td>
+					<td>9.15</td>
+					<td>9.21</td>
+				</tr>
+				<tr>
+					<td>Indian Rupee</td>
+					<td>100</td>
+					<td>160.00</td>
+					<td>160.15</td>
+				</tr>
+
+			</table>
+
+
+			<h3 class="three_col">Advertisements</h3>
+			<img src="Images/ekantipur-big_20120325.gif" class="imgcenter">
+			<p>this is ....</p>
+			<img src="Images/image.php.jpeg" class="imgcenter">
+			<p>this is is for....</p>
+
+
+		</div>
+
+	</div>
+	
+	<div class="clrboth"></div>
+	<!--footer-->
+	<div id="footer">
+		<div id="footermenu">
+			
+				<a href="index.html">Home</a>| <a href="national.html">National
+					News</a>| <a href="international.html">International News</a>| <a
+					href="sports.html">Sport News</a>| <a href="aboutus.html">About
+					Us</a>| <a href="contact.html">Contact Us</a>
+			
+		</div>
+		<div id="copyright">
+					<marquee behavior="alternate">Hijo-AajaKo Khabar &copy; 2013</marquee>
+		</div>
+
+	</div>
+
+
+</body>
+</html>

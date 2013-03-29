@@ -1,0 +1,98 @@
+//<script type="text/javascript">
+	var imgSlide;
+	var pic = 0;
+	var imageFill;
+	var imgFill;
+	window.onload = function() {
+
+		imgSlide = document.getElementById('img');
+
+		imgFill = new Array();
+		imgFill[0] = document.getElementById('img1');
+		imgFill[1] = document.getElementById('img2');
+		imgFill[2] = document.getElementById('img3');
+		imgFill[3] = document.getElementById('img4');
+		imgFill[4] = document.getElementById('img5');
+
+		// preload images
+		images = new Array();
+		images[0] = new Image();
+		images[0].src = "Images/image1.png";
+
+		images[1] = new Image();
+		images[1].src = "Images/image2.png";
+
+		images[2] = new Image();
+		images[2].src = "Images/image3.png";
+
+		images[3] = new Image();
+		images[3].src = "Images/image4.png";
+
+		images[4] = new Image();
+		images[4].src = "Images/image5.png";
+
+		imageFill = new Array();
+
+		imageFill[0] = new Image();
+		imageFill[0].src = "Images/fill.png";
+
+		imageFill[1] = new Image();
+		imageFill[1].src = "Images/unfill.png";
+
+		slide();// automatic 
+	};
+	
+
+	function slide() {
+		imgSlide.src = images[pic].src;
+		
+		fill();
+		
+		if (pic < (images.length - 1)) // images.length - 1 can be used here
+		{
+			pic++;
+		} else {
+			pic = 0;
+
+		}
+		timer = setTimeout(slide, 800);
+	}
+	function one() {
+		imgSlide.src = images[0].src;
+		pic = 0;
+		fill();
+	}
+	function two() {
+		imgSlide.src = images[1].src;
+		pic = 1;
+		fill();
+	}
+	function three() {
+		imgSlide.src = images[2].src;
+		pic = 2;
+		fill();
+	}
+	function four() {
+		imgSlide.src = images[3].src;
+		pic = 3;
+		fill();
+	}
+	function five() {
+		imgSlide.src = images[4].src;
+		pic = 4;
+		fill();
+	}
+	function fill()
+	{
+		for(var i=0;i<imgFill.length;i++)
+		{
+		  if(i==pic)
+			  {
+			  imgFill[i].src = imageFill[0].src;
+			  }
+		  else{
+			  imgFill[i].src = imageFill[1].src;
+		  }
+		}
+	}
+//</script>
